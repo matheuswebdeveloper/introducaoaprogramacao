@@ -1,0 +1,8 @@
+.botao-player {
+  width: 20%;
+  height: 15%;
+  position: absolute;
+  bottom: 12%;
+  left: 41%;
+  cursor: pointer;
+}

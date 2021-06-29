@@ -1,0 +1,57 @@
+.janela {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/src/assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.celular,
+.cobertura {
+  height: 100%;
+  width: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.tela {
+  position: absolute;
+  height: 81%;
+  width: 25.5%;
+  background-color: #000;
+  left: 37.5%;
+  top: 7.5%;
+  border-radius: 34px;
+  overflow: hidden;
+}
+
+.tela section,
+.tela section .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.tela .conteudo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.tela .voltar {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 8%;
+  cursor: pointer;
+}
