@@ -1,0 +1,31 @@
+.controles {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.controle img {
+  width: 100%;
+  height: auto;
+}
+
+.controle {
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50em;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  width: 50%;
+}
+
+.controle:hover {
+  padding: 0.1em;
+}
+
+.pause {
+  display: none;
+}
